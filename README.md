@@ -1,0 +1,6 @@
+# Numerical Simulation and Modeling
+- [Cross Validation](CrossValidation/src/CrossValidation/CrossValidation.java): a resampling method that uses different portions of the data to test and train a model on different iterations, used here to compare the accuracy of linear regression to that of KNN (K Nearest Neighbours) on a given dataset.
+- [Gaussian Elimination](GaussianElimination/src/GaussianElimination/GaussianElimination.java): algorithm for solving systems of linear equations.
+- [Jacobi and Gauss Seidel Methods](JacobiXGaussSeidel/src/JacobiXGaussSeidel/JacobiXGaussSeidel.java): a comparison of results of the two iterative methods used to solve a system of linear equations.
+- [NRMSE (Normalized Root Mean Square Error )](NRMSE/src/nrmse/NRMSE.java): frequently used measure of the differences between values predicted by a model or an estimator and the values observed, here used to compare the accuracy of prediction of linear regression to that of KNN.
+- [Pi estimation using Monte Carlo](PiEstimation/src/PiEstimation/MonteCarlo.java): generating a uniform sample of points and counting how many fall into a planar region, in this case a quarter of a circle, plus a [matlab script](PiEstimation/piMonteCarlo.m) to plot the points generated.
