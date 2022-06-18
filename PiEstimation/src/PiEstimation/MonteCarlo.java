@@ -23,14 +23,14 @@ public class MonteCarlo {
             }
             p = m/n;
         }
-        return 2*( p * (b-a) *d);//car cette surface et celle d'une demi cercle on le multiplie par 2 pour obtenir l'estimation de pi
+        return 4*( p * (b-a) *d);//car cette surface et celle d'une demi cercle on le multiplie par 2 pour obtenir l'estimation de pi
     }
     
     public static void main(String[] args) throws IOException {
         List<Double> x = null, y = null;
         Random random = new Random();
         //on travaille sur une demi cercle de rayon 1, -1(a)<=x<=1(b) 0<=y<=1(d) 
-        double a=-1, b=1, d=1;
+        double a=0, b=1, d=1;
         
         /*generation de 100,000 points aleatoires p(x,y) telque -1<x<1 0<y<1*/
         int n = 100000;
